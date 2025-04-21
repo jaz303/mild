@@ -36,7 +36,6 @@ class Script {
     }
 
     public static function serve($port) {
-        echo "PORT = $port\n";
         $tag = self::getDockerTag();
         $pwd = getcwd();
         passthru(implode(" ", [
