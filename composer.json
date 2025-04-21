@@ -1,0 +1,11 @@
+{
+    "name": "jaz303/mild",
+    "description": "A microframework for ~mildly dynamic~ websites",
+    "autoload": {
+        "psr-4": {
+            "jaz303\\mild\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
